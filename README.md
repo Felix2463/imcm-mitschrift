@@ -42,3 +42,11 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 **3. Funk / Radiowellen**
 
 - hoher Komfort, Internet überall
+
+### Teil 3 - The Internet: IP-Adresses & DNS
+
+- Protokolle sind die Tegeln der Kommunikation
+- eines der wichtigsten Protokolle im Internet ist das Internet Protokoll (IP)
+- jedes Gerät im Internet hat zumindest eine (eindeutige) IP-Adresse, viele Geräte haben eine externe IP (ähnlich wie die Hausnummer) und eine interne IP (ähnlich wie die Raumnummer)
+- das *Domain Name System* (DNS) übersetzt menschenlesbare Domainnamen (z.B.:wwww.google.com) in IP-Adressen
+- DNS-Server...
