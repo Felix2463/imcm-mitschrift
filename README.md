@@ -49,4 +49,15 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - eines der wichtigsten Protokolle im Internet ist das Internet Protokoll (IP)
 - jedes Gerät im Internet hat zumindest eine (eindeutige) IP-Adresse, viele Geräte haben eine externe IP (ähnlich wie die Hausnummer) und eine interne IP (ähnlich wie die Raumnummer)
 - das *Domain Name System* (DNS) übersetzt menschenlesbare Domainnamen (z.B.:wwww.google.com) in IP-Adressen
-- DNS-Server...
+- DNS-Server führen Tabellen mit Domainnamen und en entsprechenden Ip-Adressen
+
+### Teil 8 - The Internet: How Search Works
+
+- Suchmaschinen-Bots (*Crawler*) durchstreifen ständig das WWW und katalogisieren Websites. Der so entstehende Katalog wird auch **Index** genannt
+- wenn wir einen Suchbegriff bei Google (oder einer anderen *Search Engine*) eingeben, wird NICHT das WWW durchsucht, sondern lediglich der zuvor erstellte Index
+- Suchergebnisse werden auf Basis eines (gheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
+- Einfluss auf das Ranking haben u.a.:
+    - im Text vorkommende Suchbegriffe (*Keywords*) 
+    - Links die auf meine Seite zeigen (*Backlinks*)
+- die Suchergebnisse werden an die Benutzer*innen angepasst! D.h., nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
+- [Startpage](https://www.starpage.com/) ist eine Datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
