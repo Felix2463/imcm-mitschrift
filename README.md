@@ -62,6 +62,21 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - das _Transmission Control Protocol_ (TCP) prüft am Ziel, ob alle Pakete einer Übertragung angekommen sind. Falls Pakete fehlen, fordert es diese erneut vom Absender an.
 - TCP und IP bilden gemeinsam das Rückrad des Internets. Man spricht daher auch vom TCP/IP-Modell bzw. _TCP/IP-Stack_.
 
+### Teil 5 - The Internet: HTTP & HTML
+
+- http steht für _Hypertext Transport Protocol_. HTTP arbeitet nach dem Client-Server-Prinzip:
+
+  - ein Web-Client (Browser) sendet eine Anfrage (_request_) an einen Web-Server
+  - der Web-Server verarbeitet die Anfrage und sendet eine Antwort (_response_) zurück. Die Antwort u.a. einen sogenannten [HTTP-Statuscode](https://de.wikipedia.org/wiki/HTTP-Statuscode), der Auskunft über die Verarbeitung der Anfrage gibt.
+
+  > #### HTTP-Statuscode
+  >
+  > - **1xx** - die Anfrage dauert noch an
+  > - **2xx** - die Anfrage war erfolgreich
+  > - **3xx** - Um- oder Weiterleitung
+  > - **4xx** - Clientfehler (z.B. 404 - _Page not found_)
+  > - **5xx** - Serverfehler 💀
+
 ### Teil 8 - The Internet: How Search Works
 
 - Suchmaschinen-Bots (_Crawler_) durchstreifen ständig das WWW und katalogisieren Websites. Der so entstehende Katalog wird auch **Index** genannt
