@@ -77,6 +77,12 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
   > - **4xx** - Clientfehler (z.B. 404 - _Page not found_)
   > - **5xx** - Serverfehler 💀
 
+- HTTP-Anfragen werden immer mit einer **HTTP-Methode** übertragen
+- Daten (HTML-Seiten, Bilder, Videos, ...) werden mit GET-Anfragen angefordert
+- Benutzereingaben (Z.B. aus Formularfeldern - z.B. Passwort, Datein-Uploads, ...) werden mit POST-Anfragen verschlüsselt versendet
+- es gibt auch andere HTTP-Methoden. Diese lernen wir aber erst später.
+- HTTP*Anfragen und -Antworten können auch **Cookies** enthalten. Cookies sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (\_key-value-Pairs*) bestehen. Sie werden bei jeder Anfrage vom Client mitgesendet und ermöglichen so u.a. die Indentifikation einzelner Nutzer.
+
 ### Teil 8 - The Internet: How Search Works
 
 - Suchmaschinen-Bots (_Crawler_) durchstreifen ständig das WWW und katalogisieren Websites. Der so entstehende Katalog wird auch **Index** genannt
