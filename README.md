@@ -81,15 +81,31 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - Daten (HTML-Seiten, Bilder, Videos, ...) werden mit GET-Anfragen angefordert
 - Benutzereingaben (Z.B. aus Formularfeldern - z.B. Passwort, Datein-Uploads, ...) werden mit POST-Anfragen verschlüsselt versendet
 - es gibt auch andere HTTP-Methoden. Diese lernen wir aber erst später.
-- HTTP*Anfragen und -Antworten können auch **Cookies** enthalten. Cookies sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (\_key-value-Pairs*) bestehen. Sie werden bei jeder Anfrage vom Client mitgesendet und ermöglichen so u.a. die Indentifikation einzelner Nutzer.
+- HTTP*Anfragen und -Antworten können auch **Cookies** enthalten. Cookies sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*\_key-value-Pairs*) bestehen. Sie werden bei jeder Anfrage vom Client mitgesendet und ermöglichen so u.a. die Indentifikation einzelner Nutzer.
 
 ### Teil 8 - The Internet: How Search Works
 
 - Suchmaschinen-Bots (_Crawler_) durchstreifen ständig das WWW und katalogisieren Websites. Der so entstehende Katalog wird auch **Index** genannt
 - wenn wir einen Suchbegriff bei Google (oder einer anderen _Search Engine_) eingeben, wird NICHT das WWW durchsucht, sondern lediglich der zuvor erstellte Index
-- Suchergebnisse werden auf Basis eines (gheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
+- Suchergebnisse werden auf Basis eines (geheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
 - Einfluss auf das Ranking haben u.a.:
   - im Text vorkommende Suchbegriffe (_Keywords_)
   - Links die auf meine Seite zeigen (_Backlinks_)
 - die Suchergebnisse werden an die Benutzer\*innen angepasst! D.h., nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
 - [Startpage](https://www.starpage.com/) ist eine Datensparsame Suchmaschine, die ihren Benutzer\*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
+
+---
+
+### Ergänzung: Überblick über das TCP/IP-Modell
+
+Im TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *divide and conquer*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
+
+| Schicht | Protokoll | Dateneinheit | Adressen | 
+| --- | --- | --- | --- |
+| Internet | IP | Paket | Ip-Adressen |
+| Transport | TCP | Segment | Ports |
+| Link | Ethernet | Frame | MAC-Adressen |
+
+Die Daten Anwendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
+
+![Datenkapselung im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
