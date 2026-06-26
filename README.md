@@ -109,3 +109,18 @@ Im TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *divide and
 Die Daten Anwendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
 
 ![Datenkapselung im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
+
+---
+
+## Webtechnologie: HTML, CSS und JS
+
+![HTML_CSS_JS](/assets/html-css-js.png)
+
+### HTML - *Hypertext Markup Language*
+
+HTML gibt eine Struktur für die Webpageinhalte vor.
+Die `index.html` ist in der Regel der zentrale Eiinstiegspunkt für jede Website - alle weiteren Inhalte (Bilder, Videos, CSS-Stylesheet, JS-Files, usw.) werden über diese verknüpft.
+
+Die zentralen Bausteine von HTML sind die sogenannten **Tags**. Tags können mit Hilfe von **Attributen** erweitert werden. Attribute bestehen aus Schlüssel-Wert-Paaren (*key-value-pairs*). Der  HTML-Quelltext einer Webpage wird vom Browser und von verschiedenen Bots (Suchmaschienen-Bots - *Crawler*, KI-Bots, ...) gelesen und interpretiert.
+
+![Aufbau eines HTML-Tags](/assets/html-tag)
