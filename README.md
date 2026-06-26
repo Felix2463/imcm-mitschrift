@@ -124,3 +124,8 @@ Die `index.html` ist in der Regel der zentrale Eiinstiegspunkt für jede Website
 Die zentralen Bausteine von HTML sind die sogenannten **Tags**. Tags können mit Hilfe von **Attributen** erweitert werden. Attribute bestehen aus Schlüssel-Wert-Paaren (*key-value-pairs*). Der  HTML-Quelltext einer Webpage wird vom Browser und von verschiedenen Bots (Suchmaschienen-Bots - *Crawler*, KI-Bots, ...) gelesen und interpretiert.
 
 ![Aufbau eines HTML-Tags](/assets/html-tag)
+
+Ein HTML-Dokument ist hierarchisch augebaut.
+Wir sprechen dabei auch vom **DOM-Tree** (*Document Object Model*) - d.h., jedes HTML-Dokument ist augebaut wie ein Baum. Die Wurzel des Baumes ist der `html`-Tag. Auf der nächsten Ebene gabelt sich der Baum in `head` und `body`. Im `head` bnefinden sich in erster Linie der Seite, die Sprache, die Zeichenkodierung, usw. Im `body` befinden sich die eigentlichen Inhalte der Seite. z.B. Text, Bilder, Videos, Links, usw.
+
+![DOM-Tree](/assets/dom-tree.webp)
